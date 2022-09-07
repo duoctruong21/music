@@ -50,25 +50,25 @@ ALTER TABLE song
 ADD CONSTRAINT fk_song_genre
 FOREIGN KEY (id_genre) REFERENCES genres(id_genre);
 
---Thêm d? li?u vào b?ng singer
+--add data in singer table
 insert into singer(id_singer, name_singer)
-values ('01','?àm V?nh H?ng');
+values ('01','?Ã m V?nh H?ng');
 insert into singer(id_singer, name_singer)
-values ('02','S?n Tùng M-TP');
+values ('02','S?n TÃ¹ng M-TP');
 insert into singer(id_singer, name_singer)
-values ('03','Hà Anh Tu?n');
+values ('03','HÃ  Anh Tu?n');
 insert into singer(id_singer, name_singer)
-values ('04','Bùi Anh Tu?n');
+values ('04','BÃ¹i Anh Tu?n');
 insert into singer(id_singer, name_singer)
 values ('05','Phan M?nh Qu?nh');
 insert into singer(id_singer, name_singer)
-values ('06','L??ng Bích H?u');
+values ('06','L??ng BÃ­ch H?u');
 insert into singer(id_singer, name_singer)
-values ('07','Uyên Linh');
+values ('07','UyÃªn Linh');
 insert into singer(id_singer, name_singer)
 values ('08','Thu Minh');
 
---Thêm d? li?u vào b?ng genres
+--ThÃªm d? li?u vÃ o b?ng genres
 insert into genres values ('01','Pop');
 insert into genres values ('02','Rock');
 insert into genres values ('03','Jazz');
