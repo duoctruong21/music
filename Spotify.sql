@@ -54,7 +54,7 @@ FOREIGN KEY (id_genre) REFERENCES genres(id_genre);
 insert into singer(id_singer, name_singer)
 values ('01','Đàm Vĩnh Hưng');
 insert into singer(id_singer, name_singer)
-values ('02','S?n Tùng M-TP');
+values ('02','Sơn Tùng M-TP');
 insert into singer(id_singer, name_singer)
 values ('03','Hà Anh Tu?n');
 insert into singer(id_singer, name_singer)
