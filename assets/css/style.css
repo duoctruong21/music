@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu__bar {
+    width: 25%;
+    background-color: #ccc;
+    height: 100vh;
+}
+
+.menu__bar-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__bar-items a {
+    padding: 20px;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.menu__bar-items a:hover {
+    background-color: #333;
+    color: #fff;
+}

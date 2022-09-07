@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu__bar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu__bar a{
+    padding: 20px;
+}
