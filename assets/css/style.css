@@ -1,30 +1,173 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.menu__bar {
-    width: 25%;
-    background-color: #ccc;
-    height: 100vh;
-}
-
-.menu__bar-items{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.menu__bar-items a {
-    padding: 20px;
+.header {
+    height: 73px;
     width: 100%;
-    text-decoration: none;
-    color: #000;
-    font-weight: 900;
-    font-size: 1.2rem;
+    position: absolute;
+    background-color: #040404;
 }
 
-.menu__bar-items a:hover {
-    background-color: #333;
+.menu-bar {
+    height: 100vh;
+    background-color: #000000;
+    z-index: 1;
+}
+
+.menu-bar li:hover {
+    color: #333;
+}
+
+
+.title-app {
+    font-size: 2rem;
     color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 56px;
+}
+
+.nav-item {
+    display: flex;
+    cursor: pointer;
+}
+
+.nav-item a {
+    color: #b3b3b3;
+    width: 100%;
+}
+
+.nav-item a i {
+    margin-right: 5px;
+    width: 10%;
+    margin-top: 12px;
+}
+
+.nav-item .margin-top {
+    margin-top: 8px;
+    padding-right: 7px;
+}
+
+.search-bar {
+    height: 10vh;
+}
+
+.d-flex button:first-child {
+    margin-right: 3%;
+}
+
+.title-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.title-items p{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 1.6rem;
+}
+
+.title-items a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.center-item {
+    line-height: 40px;
+}
+
+.folder-list {
+    background-color: #121212;
+}
+
+.folder-list_header {
+    background-color: #040404;
+}
+
+.folder-list form {
+    margin-right: 2%;
+}
+
+.content-items {
+    background-color: #181818;
+    max-width: 270px;
+    height: 100%;
+}
+
+.img-size {
+    height: 70%;
+}
+
+.content-items h5, .name-singer{
+    margin-left: 10%;
+}
+
+.content-items h5{
+    color: #a7a7a7;
+    font-size: 1.2rem;
+    line-height: 1.rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.content-items .name-singer{
+    color: #989898;
+    font-size: 1rem;
+    line-height: 1rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.image img{
+    width: 80%;
+    margin: 10%;
+}
+
+.control-b-n{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    display: block;
+}
+
+.back-next--button i{
+    color: #a7a7a7;
+    width: 20px;
+}
+
+@media (max-width: 999px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    .folder-list_header {
+        height: 56px;
+    }
+}
+
+@media (max-width:980px) {
+    .menu-bar{
+        display: none;
+    }
+    .folder-list {
+        display: block;
+        max-width: 999px;
+        width: 100%;
+    }
+}
+
+@media (max-width:777px) {
+    .col-sm-6{
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
 }
