@@ -447,6 +447,19 @@
     margin-top: 20px;
 }
 
+.asd{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 35px 0 20px;
+}
+
+.btn--signup{
+    color: #858585;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 /* responsive */
 
