@@ -316,7 +316,7 @@
     transform: translateY(-50%);
     width: 12px;
     z-index: 100;
-    margin-top: 22px;
+    margin-top: 20px;
 }
 
 /* volume */
@@ -471,7 +471,7 @@
 }
 
 /* login */
-.login{
+/* .login{
     width: 100%;
     height: auto;
     text-align: center;
@@ -569,7 +569,7 @@
 .form{
     margin-top: 10px;
     text-align: left;
-}
+} 
 
 .user-address{
     margin-bottom: 15px;
@@ -651,7 +651,7 @@
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-}
+} */
 
 /* responsive */
 
