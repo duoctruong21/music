@@ -278,10 +278,27 @@
     margin-top: 2px;
 }
 
+.folder-music {
+    display: flex;
+}
+
+.now-time {
+    margin-top: -1px;
+}
+
+.folder-music span {
+    color: #989898;
+}
+
+.final-time {
+    margin-top: -1px;
+}
+
 .play-input {
-    width: 100%;
+    width: 80%;
     height: 12px;
     margin-top: 10px;
+    margin: 6px 14px;
 }
 
 .play-input__input {
