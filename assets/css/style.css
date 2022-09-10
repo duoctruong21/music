@@ -410,6 +410,10 @@
     margin-left: 20px;
 }
 
+.login-btn a:last-child{
+    margin-left: 5px;
+}
+
 .login-btn .btn{
     color: #fff;
     border: 1px solid #fff;
