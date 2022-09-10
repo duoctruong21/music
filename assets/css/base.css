@@ -19,3 +19,7 @@ body {
 .item__margin-top a {
     display: block;
 }
+
+.none-btn {
+    display: none!important;
+}
