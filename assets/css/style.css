@@ -2,10 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* home page */
-/* Header */
 .header {
     height: 73px;
     width: 100%;
@@ -188,210 +188,6 @@
     width: 20px;
 }
 
-/* footer */
-.footer {
-    width: 100%;
-    height: 90px;
-    background-color: #181818;
-    z-index: 2;
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-}
-/* info */
-
-.info-form {
-    display: flex;
-    margin: 15px;
-}
-
-.info-music img {
-    width: 60px;
-    height: 60px;
-}
-
-.info-form__name {
-    margin-left: 10px;
-    color: #fff;
-    -webkit-box-align: center;
-    align-items: center;
-    display: grid;
-}
-
-.info-form__name h5 {
-    font-size: 1rem;
-    margin: 0;
-    line-height: 1rem;
-    overflow: hidden;
-    display: block;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-}
-
-.info-form__name p {
-    font-size: 0.8rem;
-    margin: 0;
-    line-height: 0.8rem;
-    overflow: hidden;
-    display: block;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-}
-/* play music */
-
-.play-music {
-    width: 30%;
-    margin: 15px 0;
-}
-
-.play-lists {
-    display: flex;
-    justify-content: center;
-}
-
-.play-lists i {
-    font-size: 1.6rem;
-    line-height: 1.6rem;
-    color: #989898;
-}
-
-.back-music {
-    margin-top: 7px;
-}
-
-.next-music {
-    margin-top: 7px;
-}
-
-.control-music {
-    margin: 0 15%;
-    background-color: #fff;
-    padding: 5px 10px; 
-    border-radius: 50%;
-}
-
-.control-music .pause-music {
-    margin-left: 5px;
-    margin-top: 2px;
-}
-
-.folder-music {
-    display: flex;
-}
-
-.now-time {
-    margin-top: -1px;
-}
-
-.folder-music span {
-    color: #989898;
-}
-
-.final-time {
-    margin-top: -1px;
-}
-
-.play-input {
-    width: 80%;
-    height: 12px;
-    margin-top: 10px;
-    margin: 6px 14px;
-}
-
-.play-input__input {
-    width: 100%;
-    height: 4px;
-    margin-top: 4px;
-    background-color: #212529;
-}
-
-.play-input__hiden {
-    overflow: hidden;
-}
-
-.play-change {
-    width: 93px;
-    height: 4px;
-    margin-top: 4px;
-    background-color: #989898;
-}
-
-.play-btn {
-    background-color: #fff;
-    border: 0;
-    border-radius: 50%;
-    display: block;
-    height: 12px;
-    left: var(--progress-bar-transform);
-    margin-left: -6px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 12px;
-    z-index: 100;
-    margin-top: 20px;
-}
-
-/* volume */
-
-.volume-music {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;
-}
-
-.volume-music i {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-    color: #989898;
-    margin-right: 5px;
-}
-
-.volume-input {
-    width: 93px;
-    height: 12px;
-}
-
-.volume-input__input {
-    width: 93px;
-    height: 4px;
-    margin-top: 4px;
-    background-color: #212529;
-}
-
-.volume-input__hiden {
-    overflow: hidden;
-}
-
-.volume-change {
-    width: 93px;
-    height: 4px;
-    margin-top: 4px;
-    background-color: #989898;
-}
-
-.volume-btn {
-    background-color: #fff;
-    border: 0;
-    border-radius: 50%;
-    display: block;
-    height: 12px;
-    left: var(--progress-bar-transform);
-    margin-left: -6px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 12px;
-    z-index: 100;
-}
-
-
 /* search page */
 
 .search-music {
@@ -425,10 +221,6 @@
 
 .login-btn {
     margin-left: 20px;
-}
-
-.login-btn a:last-child{
-    margin-left: 5px;
 }
 
 .login-btn .btn{
@@ -491,8 +283,8 @@
     object-position: center center;
 }
 
-/* login */
-/* .login{
+/* login and sign up*/
+.login, .signup{
     width: 100%;
     height: auto;
     text-align: center;
@@ -525,7 +317,7 @@
     border-radius: 50px;
     margin: 10px auto;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.3);
 }
 
 .btn:hover{
@@ -540,7 +332,7 @@
 
 .btn--gg{
     background-color: #ffffff;
-    color: #8e8e8e;
+    color: #4e4e4e;
 }
 
 .btn--phone{
@@ -554,6 +346,10 @@
     font-weight: 600;
 }
 
+.btn--fb--signup p,.btn--gg--signup p{
+    text-transform: inherit;
+}
+
 .icon{
     font-size: 20px;
     margin-right: 5px;
@@ -564,6 +360,8 @@
     background: url(	https://accounts.scdn.co/sso/images/google-icon.1cdc8fce9609d07f0e9d8d0bc4b61f8f.svg) center center no-repeat;
     width: 20px;
     height: 20px;
+    position: relative;
+    top: 4px;
 }
 
 .line{
@@ -590,19 +388,19 @@
 .form{
     margin-top: 10px;
     text-align: left;
-} 
-
-.user-address{
-    margin-bottom: 15px;
 }
 
-.form__user, .form__password{
-    font-size: 12px;
+.user-address, .user-email-again, .user-password{
+    margin-bottom: 20px;
+}
+
+.form__user,.form__email-again, .form__password, .form__profile-name{
+    font-size: 14px;
     font-weight: 600;
     text-align: left;
 }
 
-.form__input-user, .form__input-password{
+.form__input-user,.form__input-email-again, .form__input-password,.form__input-profile-name{
     width: 100%;
     height: auto;
     padding: 14px;
@@ -611,6 +409,18 @@
     border: 1px solid #000;
     border-radius: 4px;
 }
+
+.helpText{
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.signup-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 
 .forgot-password{
     display: inline-block;
@@ -635,9 +445,6 @@
     display: flex;
 }
 
-.remember input{
- 
-}
 
 .remember p{
     font-size: 13px;
@@ -645,7 +452,7 @@
     font-weight: 500;
 }
 
-.btn--login{
+.btn--login,.btn--signup{
     width: auto;
     height: auto;
     padding: 14px 32px;
@@ -667,12 +474,26 @@
     margin: 35px 0 20px;
 }
 
-.btn--signup{
+.signpFor{
+    padding: 0 0 25px
+}
+
+.btn--signUpFor{
     color: #858585;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-} */
+
+}
+
+p.login{
+    font-size: 16px;
+    padding: 15px 10px 25px;
+}
+
+p.login > a{
+    color: #1ed760;
+}
 
 /* responsive */
 
