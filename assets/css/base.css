@@ -24,3 +24,7 @@ body {
 .none-btn {
     display: none!important;
 }
+
+.border-radius {
+    border-radius: 50px;
+}

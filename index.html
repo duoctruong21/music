@@ -27,11 +27,21 @@
                         <a class="back-next--button" href="#"><i class="fa-solid fa-chevron-left"></i></a>
                         <a class="back-next--button" href="#"><i class="fa-solid fa-chevron-right"></i></a>
                     </div>
-                    <!-- login, register -->
-                    <form class="d-flex login-btn">
-                        <a href="./pages/login.html" class="btn" type="submit">Login</a>
-                        <a href="./pages/register.html" class="btn" type="submit">Register</a>
+                    <!-- Login, register -->
+                    <!-- thêm class none btn để ẩn btn login vs register khi đã login -->
+                    <form class="d-flex login-btn none-btn">
+                        <a href="./login.html" class="btn" type="submit">Login</a>
+                        <a href="./register.html" class="btn" type="submit">Register</a>
                     </form>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle border-radius" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            User name
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Log out</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
