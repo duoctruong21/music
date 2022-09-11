@@ -36,8 +36,8 @@
                     </form>
                     <!-- Login, register -->
                     <form class="d-flex login-btn">
-                        <a href="#" class="btn" type="submit">Login</a>
-                        <a href="#" class="btn" type="submit">Register</a>
+                        <a href="./login.html" class="btn" type="submit">Login</a>
+                        <a href="./register.html" class="btn" type="submit">Register</a>
                     </form>
                 </div>
             </nav>
@@ -138,27 +138,16 @@
             <div class="folder-music">
                 <div class="now-time"><span>1:20</span></div>
                 <div class="play-input">
-                    <div class="play-input__input">
-                        <div class="play-input__hidden">
-                            <div class="play-change"></div>
-                        </div>
-                        <div class="play-btn"></div>
-                    </div>
+                    <input type="range" value="100" step="5" class="play-change">
                 </div>
                 <div class="final-time"><span>4:10</span></div>
             </div>
+
         </div>
         <!-- change volume -->
         <div class="volume-music">
             <i class="bi bi-volume-down-fill"></i>
-            <div class="volume-input">
-                <div class="volume-input__input">
-                    <div class="volume-input__hidden">
-                        <div class="volume-change"></div>
-                    </div>
-                    <div class="volume-btn"></div>
-                </div>
-            </div>
+            <input type="range" value="100" step="5" class="volume-change">
         </div>
     </div>
 
