@@ -208,6 +208,10 @@
     margin: 15px;
 }
 
+.info-music a {
+    text-decoration: none;
+}
+
 .info-music img {
     width: 60px;
     height: 60px;
