@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* login and sign up*/
+.login, .signup{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo p{
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 20px 0;
+}
+
+.container{
+    display: inline-block;
+}
+.container__header{
+    margin: 30px 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn{
+    display: block;
+    width: 450px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn--fb{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btn--gg{
+    background-color: #ffffff;
+    color: #4e4e4e;
+}
+
+.btn--phone{
+    background-color: #000;
+    color: #fff;
+}
+
+.btn p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn--fb--signup p,.btn--gg--signup p{
+    text-transform: inherit;
+}
+
+.icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.icon-gg{
+    display: inline-block;
+    background: url(	https://accounts.scdn.co/sso/images/google-icon.1cdc8fce9609d07f0e9d8d0bc4b61f8f.svg) center center no-repeat;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+}
+
+.line{
+    display: flex;
+    margin: 15px 0;
+}
+
+.line > p{
+    width: 10%;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 2;
+}
+.line > hr {
+    width: 50%;
+    border-top: 1px solid #dbdbdb;
+    height: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px 0;
+}
+
+.form{
+    margin-top: 10px;
+    text-align: left;
+}
+
+.user-address, .user-email-again, .user-password{
+    margin-bottom: 20px;
+}
+
+.form__user,.form__email-again, .form__password, .form__profile-name{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.form__input-user,.form__input-email-again, .form__input-password,.form__input-profile-name{
+    width: 100%;
+    height: auto;
+    padding: 14px;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.helpText{
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.signup-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.forgot-password{
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.forgot-password:hover{
+    color: #6e6e6e;
+}
+
+.zxc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.remember{
+    display: flex;
+}
+
+
+.remember p{
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.btn--login,.btn--signup{
+    width: auto;
+    height: auto;
+    padding: 14px 32px;
+    background-color: #1ed760;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.last-line{
+    margin-top: 20px;
+}
+
+.asd{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 35px 0 20px;
+}
+
+.signpFor{
+    padding: 0 0 25px
+}
+
+.btn--signUpFor{
+    color: #858585;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+p.login{
+    font-size: 16px;
+    padding: 15px 10px 25px;
+}
+
+p.login > a{
+    color: #1ed760;
+}
