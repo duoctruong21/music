@@ -1,8 +1,10 @@
-*{
+
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
+
 
 /* home page */
 /* Header */
@@ -428,6 +430,7 @@
     object-fit: cover; 
     object-position: center center;
 }
+
 
 /* login */
 /* .login{
