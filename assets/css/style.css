@@ -1,9 +1,11 @@
+
 /* home page */
+/* Header */
 .header {
     height: 73px;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     background-color: hsl(0, 0%, 2%);
 }
 .header .col-10 {
@@ -56,14 +58,12 @@
 }
 
 .nav-item a i {
-    margin-right: 5px;
-    width: 10%;
+    margin-right: 5%;
     margin-top: 12px;
 }
 
 .nav-item .margin-top {
     margin-top: 8px;
-    padding-right: 7px;
 }
 
 .search-bar {
@@ -116,6 +116,12 @@
 
 .folder-list form {
     margin-right: 2%;
+}
+
+
+
+.list-items:last-child {
+    margin-bottom: 100px;
 }
 
 .content-items {
@@ -176,6 +182,152 @@
     width: 20px;
 }
 
+/* footer */
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #181818;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* info */
+
+.info-form {
+    display: flex;
+    margin: 15px;
+}
+
+.info-music a {
+    text-decoration: none;
+}
+
+.info-music img {
+    width: 60px;
+    height: 60px;
+}
+
+.info-form__name {
+    margin-left: 10px;
+    color: #fff;
+    -webkit-box-align: center;
+    align-items: center;
+    display: grid;
+}
+
+.info-form__name h5 {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.info-form__name p {
+    font-size: 0.8rem;
+    margin: 0;
+    line-height: 0.8rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+/* play music */
+
+.play-music {
+    width: 30%;
+    margin: 15px 0;
+}
+
+.play-lists {
+    display: flex;
+    justify-content: center;
+}
+
+.play-lists i {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #989898;
+}
+
+.back-music {
+    margin-top: 7px;
+}
+
+.next-music {
+    margin-top: 7px;
+}
+
+.control-music {
+    margin: 0 15%;
+    background-color: #fff;
+    padding: 5px 10px; 
+    border-radius: 50%;
+}
+
+.control-music .pause-music {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.folder-music {
+    display: flex;
+    justify-content: center;
+}
+
+.now-time {
+    margin-top: -1px;
+}
+
+.folder-music span {
+    color: #989898;
+}
+
+.final-time {
+    margin-top: -1px;
+}
+
+.play-input {
+    width: 300px;
+    margin: -2px 14px;
+}
+
+.play-change {
+    width: 100%;
+    height: 4px;
+    margin-top: 4px;
+    background-color: #989898;
+}
+
+/* volume */
+
+.volume-music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.volume-music i {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #989898;
+    margin-right: 5px;
+}
+
+.volume-change {
+    width: 93px;
+    height: 4px;
+    background-color: #989898;
+}
+
+
 /* search page */
 
 .search-music {
@@ -209,6 +361,10 @@
 
 .login-btn {
     margin-left: 20px;
+}
+
+.login-btn a:last-child{
+    margin-left: 5px;
 }
 
 .login-btn .btn{
@@ -269,6 +425,48 @@
     width: 100px;
     object-fit: cover; 
     object-position: center center;
+}
+
+
+
+/* music info */
+
+.container__info{
+    width: 83%;
+    height: auto;
+    padding: 0;
+    margin:0;
+}
+
+
+/* .header-info__img{
+    width: 100%;
+    height: 340px;
+    background-image: url('https://bloganchoi.com/wp-content/uploads/2022/01/mot-trieu-like-bai-hat.jpg');
+    background-repeat: no-repeat;
+    background-position: top ;
+    float: right;
+    position: relative;
+}
+
+.header-info__name{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1;
+    top: 130px;
+    left: 34px;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.header-info__amount-litener{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1;
+    top: 290px;
+    left: 34px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 

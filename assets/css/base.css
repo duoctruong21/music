@@ -2,8 +2,9 @@
     --text-color: #000;
 }
 
+
 body {
-    background-color: #000;
+    background-color: #121212;
 }
 
 .col-md-2-5{
@@ -18,4 +19,12 @@ body {
 
 .item__margin-top a {
     display: block;
+}
+
+.none-btn {
+    display: none!important;
+}
+
+.border-radius {
+    border-radius: 50px;
 }
