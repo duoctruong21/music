@@ -59,14 +59,12 @@
 }
 
 .nav-item a i {
-    margin-right: 5px;
-    width: 10%;
+    margin-right: 5%;
     margin-top: 12px;
 }
 
 .nav-item .margin-top {
     margin-top: 8px;
-    padding-right: 7px;
 }
 
 .search-bar {
@@ -201,6 +199,10 @@
 .info-form {
     display: flex;
     margin: 15px;
+}
+
+.info-music a {
+    text-decoration: none;
 }
 
 .info-music img {
