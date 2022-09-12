@@ -2,7 +2,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #000;
+    
 }
+.btnUpdate{
+    --bs-btn-font-size: 0.83rem;
+}
+
 
 .menu__bar {
     display: flex;
@@ -70,6 +76,7 @@ body {
     color: #b3b3b3;
     width: 100%;
 }
+
 
 .nav-item a i {
     margin-right: 5px;
@@ -286,6 +293,7 @@ body {
     object-fit: cover; 
     object-position: center center;
 }
+
 
 
 
