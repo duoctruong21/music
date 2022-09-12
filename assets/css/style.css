@@ -429,6 +429,7 @@
 }
 
 
+
 /* music info */
 
 .container__info{
@@ -438,7 +439,8 @@
     margin:0;
 }
 
-.header-info__img{
+
+/* .header-info__img{
     width: 100%;
     height: 340px;
     background-image: url('https://bloganchoi.com/wp-content/uploads/2022/01/mot-trieu-like-bai-hat.jpg');
@@ -468,9 +470,6 @@
     font-weight: 600;
 }
 
-.table-info-music{
-    color: #fff;
-}
 
 
 
